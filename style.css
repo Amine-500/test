@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  gap: 30px;
+}
+
+.navbar ul li {
+  list-style-type: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(46, 46, 46);
+}
+
+.navbar ul li a {
+  text-decoration: none;
+}
+
+#home {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  margin-left: 100px;
+  gap: 30px;
+
+  padding-bottom: 20px;
+}
+
+.border-div {
+  border-bottom: solid 1px rgb(184, 184, 184);
+}
+
+#home h1 {
+  font-size: 170px;
+  width: 70%;
+}
+
+#home h5 {
+  width: 40%;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+#home button {
+  border: solid 2px black;
+  padding: 10px 30px;
+  background-color: black;
+  color: white;
+  font-weight: 500;
+  border-radius: 100px;
+}
+
+#home button:hover {
+  background-color: white;
+  color: black;
+  transition: 0.4s;
+  border: solid 1px black;
+}
+
+#about {
+  margin-top: 200px;
+  margin-bottom: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+#about h3 {
+  font-size: 80px;
+}
+
+#about p {
+  width: 40%;
+  font-size: 18px;
+}
+
+#work {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 200px;
+}
+
+#work h3 {
+  font-size: 80px;
+}
+
+#work .cards-container {
+  display: flex;
+  flex-direction: rows;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-top: 50px;
+  gap: 20px;
+}
+
+#work .cards-container .card img {
+  width: 300px;
+  height: 150px;
+  object-fit: cover;
+}
+
+#work .cards-container .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  height: 350px;
+  padding: 20px;
+  border: solid 1.2px grey;
+  border-radius: 20px;
+}
+
+#work .cards-container .card h6 {
+  font-size: larger;
+}
