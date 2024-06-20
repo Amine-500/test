@@ -43,6 +43,18 @@
   width: 70%;
 }
 
+@media only screen and (max-width: 600px) {
+  #home h1 {
+    font-size: 30px;
+    width: 80%;
+  }
+
+  #home h5 {
+    font-size: 14px;
+    color: red;
+  }
+}
+
 #home h5 {
   width: 40%;
   font-weight: 400;
@@ -128,4 +140,36 @@
 
 #work .cards-container .card h6 {
   font-size: larger;
+}
+
+.parent {
+  width: 40%;
+  height: 500px;
+  background-color: red;
+  margin-left: 500px;
+  margin-bottom: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  scroll-behavior: smooth;
+}
+
+.child1 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
+
+.child2 {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+}
+
+.child3 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
 }
